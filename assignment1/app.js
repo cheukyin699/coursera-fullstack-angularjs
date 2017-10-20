@@ -15,6 +15,7 @@
                 if (c == ',') ++count;
             }
 
+            // Do stuff with the numbers
             if ($scope.list == "")
                 $scope.output = "Please enter data first";
             else if (count <= 3)
